@@ -1,6 +1,6 @@
 -- Script Name: Phone Labels
 -- Author: Joseph Abboud
--- Version: 1.0
+-- Version: 1.1
 -- Modified: January 7, 2025
 -- Description: Replaces the default labels (e.g. "home" / "Mobile") in the Contacts app to the
 -- 				name of the country/region the phone number is from.
@@ -973,6 +973,14 @@ tell application "Contacts"
 								-- Nauru
 							else if (normalizedPhone starts with "+674") then
 								set label of aPhone to "Nauru"
+
+								-- New Caledonia
+							else if (normalizedPhone starts with "+687") then
+								set label of aPhone to "New Caledonia"
+
+								-- Norfolk Island
+							else if (normalizedPhone starts with "+672") then
+								set label of aPhone to "Norfolk Island"
 								
 								-- Kiribati
 							else if (normalizedPhone starts with "+686") then
@@ -989,6 +997,7 @@ tell application "Contacts"
 								-- French Polynesia (Tahiti)
 							else if (normalizedPhone starts with "+689") then
 								set label of aPhone to "French Polynesia"
+
 							end if
 						end if
 					end if

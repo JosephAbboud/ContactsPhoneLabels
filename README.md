@@ -1,6 +1,6 @@
 # Contacts Phone Labels
 
-_Version: 1.0\
+_Version: 1.1\
 Author: Joseph Abboud\
 Last Modified: January 7, 2025_
 
