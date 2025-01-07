@@ -1,4 +1,4 @@
--- Script Name: Contacts Phone Region Labels
+-- Script Name: Phone Labels
 -- Author: Joseph Abboud
 -- Version: 1.0
 -- Modified: January 7, 2025
