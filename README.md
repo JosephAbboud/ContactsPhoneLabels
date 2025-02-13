@@ -1,4 +1,4 @@
-# Contacts Phone Labels
+# macOS Contacts Region-Based Phone Label Modifier
 
 _Version: 1.1\
 Author: Joseph Abboud\
